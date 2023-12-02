@@ -37,9 +37,9 @@ os.environ['AUX_USE_SYMLINKS'] = str(USE_SYMLINKS)
 os.environ['AUX_ANNOTATOR_CKPTS_PATH'] = annotator_ckpts_path
 os.environ['AUX_ORT_PROVIDERS'] = str(",".join(ORT_PROVIDERS))
 
-log.info(f"Using ckpts path: {annotator_ckpts_path}")
-log.info(f"Using symlinks: {USE_SYMLINKS}")
-log.info(f"Using ort providers: {ORT_PROVIDERS}")
+#log.info(f"Using ckpts path: {annotator_ckpts_path}")
+#log.info(f"Using symlinks: {USE_SYMLINKS}")
+#log.info(f"Using ort providers: {ORT_PROVIDERS}")
 
 MAX_RESOLUTION=2048 #Who the hell feed 4k images to ControlNet?
 HF_MODEL_NAME = "lllyasviel/Annotators"
